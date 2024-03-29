@@ -1,0 +1,102 @@
+.interface-interface-skeleton__sidebar {
+  overflow-x: hidden; }
+
+.neve-white-background-control {
+  margin-bottom: 24px; }
+  .neve-white-background-control .short-code {
+    background-color: #f4f4f4;
+    border: 1px solid; }
+  .neve-white-background-control .components-base-control {
+    width: calc( 100% - 16px);
+    background-color: #fff; }
+  .neve-white-background-control .neve-number-control-wrap {
+    display: flex;
+    align-items: center; }
+    .neve-white-background-control .neve-number-control-wrap .neve-control-header, .neve-white-background-control .neve-number-control-wrap .single-input {
+      width: 50%; }
+  .neve-white-background-control .select-inline {
+    align-items: start;
+    flex-direction: column; }
+    .neve-white-background-control .select-inline .customize-control-title {
+      display: block;
+      width: 100%;
+      flex: 0 0 100%;
+      margin-bottom: 8px; }
+  .neve-white-background-control .components-button-group.rule-actions {
+    display: flex;
+    justify-content: end;
+    padding-right: 8px; }
+    .neve-white-background-control .components-button-group.rule-actions .chainer {
+      color: #555D66;
+      text-transform: uppercase; }
+      .neve-white-background-control .components-button-group.rule-actions .chainer:before {
+        content: none;
+        flex: none;
+        border: 0;
+        margin: auto; }
+      .neve-white-background-control .components-button-group.rule-actions .chainer:after {
+        border-bottom: 1px solid #efefef; }
+  .neve-white-background-control .components-button.is-secondary:not(:disabled) {
+    background: var(--wp-admin-theme-color);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px; }
+    .neve-white-background-control .components-button.is-secondary:not(:disabled):hover, .neve-white-background-control .components-button.is-secondary:not(:disabled):focus, .neve-white-background-control .components-button.is-secondary:not(:disabled):active {
+      background-color: var(--wp-admin-theme-color-darker-10);
+      color: #fff; }
+    .neve-white-background-control .components-button.is-secondary:not(:disabled).is-destructive {
+      background: #C6C6C6;
+      color: #fff;
+      box-shadow: none; }
+      .neve-white-background-control .components-button.is-secondary:not(:disabled).is-destructive:hover, .neve-white-background-control .components-button.is-secondary:not(:disabled).is-destructive:focus, .neve-white-background-control .components-button.is-secondary:not(:disabled).is-destructive:active {
+        background: #eaeaea;
+        color: #710d0d; }
+  .neve-white-background-control .components-button.is-small.has-icon:not(.has-text) {
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    padding: 0;
+    border-radius: 50%;
+    margin-right: 8px; }
+  .neve-white-background-control .chainer {
+    display: flex;
+    flex-direction: row;
+    padding: 4px 8px;
+    width: calc( 100% - 16px);
+    font-weight: bold; }
+    .neve-white-background-control .chainer:before, .neve-white-background-control .chainer:after {
+      content: "";
+      flex: 1 1;
+      border-bottom: 1px solid #efefef;
+      margin: auto; }
+    .neve-white-background-control .chainer:before {
+      margin-right: 10px; }
+    .neve-white-background-control .chainer:after {
+      margin-left: 10px; }
+  .neve-white-background-control .rule-group {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    width: calc( 100% - 8px); }
+    .neve-white-background-control .rule-group + .chainer {
+      width: calc( 100% - 8px);
+      color: var(--wp-admin-theme-color);
+      text-transform: uppercase; }
+    .neve-white-background-control .rule-group .actions {
+      margin-top: 16px; }
+    .neve-white-background-control .rule-group .magic-tags hr {
+      margin: 0.1em; }
+    .neve-white-background-control .rule-group .magic-tags .heading {
+      margin-bottom: 5px; }
+      .neve-white-background-control .rule-group .magic-tags .heading h3 {
+        display: inline;
+        padding-left: 5px; }
+    .neve-white-background-control .rule-group .magic-tags button.tag {
+      margin: 2px;
+      padding: 1px 3px;
+      line-height: 19px;
+      min-height: 19px;
+      border: 1px dashed var(--wp-admin-theme-color); }
+  .neve-white-background-control .rule-set {
+    margin-top: 8px;
+    margin-right: -16px; }

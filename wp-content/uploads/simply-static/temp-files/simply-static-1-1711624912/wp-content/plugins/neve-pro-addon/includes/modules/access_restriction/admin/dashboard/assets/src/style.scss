@@ -1,0 +1,41 @@
+// get inherit styles from white_label dashboard
+@import "../../../../../white_label/src/style.scss";
+
+.col {
+    width: 100%;
+}
+
+#neve_access_restriction {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    .field-wrap {
+        min-width: 33.33%;
+    }
+
+    .accordion {
+        width: calc(100% + 50px);
+        margin-left: -25px !important;
+        margin-right: -25px !important;
+
+        .accordion-header, .accordion-body {
+            border-left: none;
+            border-right: none;
+        }
+
+        .accordion-body {
+            border-bottom: none;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    #neve_access_restriction {
+        .accordion {
+            width: calc(100% + 80px);
+            margin-left: -40px !important;
+            margin-right: -40px !important;
+        }
+    }
+}

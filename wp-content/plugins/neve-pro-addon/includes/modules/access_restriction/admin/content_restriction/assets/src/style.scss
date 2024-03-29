@@ -1,0 +1,7 @@
+.nv-ac-margin {
+    margin: 10px 0;
+
+    input[id^=react-select-]:focus {
+        box-shadow: none;
+    }
+}

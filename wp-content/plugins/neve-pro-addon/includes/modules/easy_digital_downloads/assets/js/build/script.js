@@ -1,0 +1,1 @@
+jQuery(document).ready((function(t){t("body").addClass("js");const d=t(".nv-edd-cart-total");function o(t){let o=t.total;d.hasClass("nv-cart-icon-total-currency")||(o=t.total.replace(/[^0-9.,]/g,"")),d.html(o)}t("body").on("edd_cart_item_added",(function(t,d){o(d)})),t("body").on("edd_cart_item_removed",(function(t,d){o(d)}))}));

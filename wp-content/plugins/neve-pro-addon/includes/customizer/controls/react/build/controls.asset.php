@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('neve-components', 'wp-api', 'wp-components', 'wp-element', 'wp-i18n', 'wp-primitives'), 'version' => 'ede23e2d2cb0c8daecff1629ae9881c0');

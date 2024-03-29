@@ -1,0 +1,23 @@
+	#nv-edd-grid-container p {
+		margin-bottom: 20px;
+	}
+
+	#nv-edd-grid-container .nv-edd-download-title p{
+		margin-bottom: 10px;
+	}
+
+	.nv-edd-download-item {
+		margin-top: 40px;
+	}
+
+	.nv-edd-download-title, .edd_downloads_list .edd_download_title {
+		@extend %nv-has-h3-typography;
+	}
+
+	.nv-edd-download-meta{
+		@extend %nv-has-typography;
+	}
+
+	.edd_price_options {
+		margin-bottom: 10px;
+	}

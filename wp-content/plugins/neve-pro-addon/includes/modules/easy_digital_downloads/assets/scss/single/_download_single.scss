@@ -1,0 +1,19 @@
+.nv-edd #nv-single-download-container {
+
+	.nv-edd-content {
+		margin-bottom: 80px;
+		.edd_purchase_submit_wrapper .edd-cart-added-alert {
+			margin-top: 10px;
+			position: relative;
+		}
+	}
+
+	.nv-page-title h1 {
+		@extend %nv-has-h1-typography;
+	}
+
+	.nv-edd-single-download-meta {
+		@extend %nv-has-typography;
+	}
+
+}
