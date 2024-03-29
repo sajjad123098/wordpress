@@ -1,0 +1,5 @@
+@import "https://sajjad123098.github.io/wordpress/wp-content/plugins/otter-blocks/vendor/tubalmartin/cssmin/tests/expectations/another.css";
+/*! dont delete me */
+.test{color:red}@media screen{.printonly{display:none}}@media print{
+/*! imp: weird but it may happen */
+}
